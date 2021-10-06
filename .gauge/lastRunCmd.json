@@ -1,0 +1,8 @@
+[
+	"/usr/local/bin/gauge",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"/Users/omurkeles/IdeaProjects/gauge_sample_hepsiburada/spec/mainTest.spec:18"
+]

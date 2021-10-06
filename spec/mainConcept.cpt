@@ -1,0 +1,34 @@
+Created by omurkeles on 5.10.2021
+
+This is a concept file with following syntax for each concept.
+# Siparişim ile ilgili sorum var sayfasına git
+* Wait for page load
+* Check "Çözüm Merkezi" in title
+* Click to element "siparisimIleIlgiliSorumVarBtn"
+
+# Arama talebi oluştur
+* Wait for page load
+* Check "Çözüm Merkezi" in title
+* Click to element "aramaTalebiOlusturmakIcinGonderBtn"
+
+# Farklı bir konu ile ilgili sorum var sayfasına git
+* Wait for page load
+* Check "Çözüm Merkezi" in title
+* Click to element "farkliBirKonudaSorumVarBtn"
+
+# Ekrandan <value> değerine tıkla
+* Click element in <value> text
+* Wait for page load
+
+# <email> ve <password> ile login ol
+* Wait for page load
+* Check "Üye Giriş Sayfası & Üye Ol - Hepsiburada" in title
+* Write value <email> to element "emailTxt"
+* Write value <password> to element "passwordTxt"
+* Click to element "girisBtn"
+
+# Sipariş ile ilgili çözüm merkezinde random sipariş seç
+* Click to random element "cozumMerkeziSiparisler"
+
+# Sipariş ile ilgili çözüm merkezinde ürün sayfası görüntülenirse ürün seçimi yap
+* Click to random element "cozumMerkeziSiparislerUrunler" if exists

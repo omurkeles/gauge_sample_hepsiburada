@@ -1,0 +1,42 @@
+[
+  {
+    "key": "siparisimIleIlgiliSorumVarBtn",
+    "value": "(//div[@class='button-container']//button)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "farkliBirKonudaSorumVarBtn",
+    "value": "(//div[@class='button-container']//button)[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "emailTxt",
+    "value": "//input[@type='email'][@id='txtUserName']",
+    "type": "xpath"
+  },
+  {
+    "key": "passwordTxt",
+    "value": "//input[@type='password'][@id='txtPassword']",
+    "type": "xpath"
+  },
+  {
+    "key": "girisBtn",
+    "value": "//button[@type='submit'][@id='btnLogin']",
+    "type": "xpath"
+  },
+  {
+    "key": "cozumMerkeziSiparisler",
+    "value": "//div[contains(@class,'orders-container')]/div[contains(@class,'order-container')]",
+    "type": "xpath"
+  },
+  {
+    "key": "cozumMerkeziSiparislerUrunler",
+    "value": "//div[@class='page-content']/div[@class='sub-product-container']",
+    "type": "xpath"
+  },
+  {
+    "key": "aramaTalebiOlusturmakIcinGonderBtn",
+    "value": "//div[contains(@class,'primary')]/button[normalize-space(text())='Gönder']",
+    "type": "xpath"
+  }
+]
